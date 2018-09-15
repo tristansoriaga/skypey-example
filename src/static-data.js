@@ -3,7 +3,7 @@ const txtgen = require("txtgen"); // txtgen.sentence() returns random "readable"
 const faker = require("faker"); // faker is used for generating random fake data.
 const _ = require("lodash"); // lodash is a utility lib for Javascript
 
-const users = generateUsers(5);
+const users = generateUsers(10);
 export const contacts = _.mapKeys(users, "user_id");
 export const getMessages = messagesPerUser => {
   let messages = {};

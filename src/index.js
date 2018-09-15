@@ -5,7 +5,7 @@ import Main from "./components/Main";
 import store from "./store";
 import _ from "lodash";
 
-import "./styles.css";
+import "./index.css";
 
 function App() {
   const { contacts, user, activeUserId } = store.getState();
